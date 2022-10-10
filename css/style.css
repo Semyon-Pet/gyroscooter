@@ -1,0 +1,845 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font: 16px Segoe UI;
+}
+
+.header {
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1134px;
+    min-width: 360px;
+}
+
+.menu-link {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.menu-link:hover {
+    color: #454444;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 25px;
+}
+
+.name {
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: bold;
+    list-style-type: none;
+    color: black;
+    font-size: 30px;
+    display: block;
+}
+
+.shadow-header-1 {
+    box-shadow: 0 0px 10px rgb(208, 208, 208);
+}
+
+.header-1 {
+    background-color: white;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+.header-2 {
+    align-items: center;
+    height: 62px;
+    display: flex;
+    width: 100%;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.call-1 {
+    margin-left: auto;
+}
+
+.call-1-1 {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: #ffa019;
+    background-color: #ffa019;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.call-1-1:hover {
+    background-color: #f19719;
+}
+
+.main-screen {
+    min-height: 856px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 100%, rgb(0, 0, 0) 0%),
+        url(../img/background.jpg) no-repeat center top / cover;
+    color: white;
+    text-align: center;
+    padding-top: 253px;
+
+}
+
+.main-screen-catalog-button {
+    margin-top: 20px;
+    background-color: white;
+    border-color: white;
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-screen-catalog-button:hover {
+    background-color: rgb(231, 225, 225);
+}
+
+.main-screen-description {
+    line-height: 3px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+
+.main-screen-name {
+    font-weight: lighter;
+    font-size: 56px;
+}
+
+.our-advantages-head {
+    display: flex;
+    align-items: center;
+}
+
+.triangles {
+    margin-left: auto;
+    display: flex;
+}
+
+.our-advantages {
+    font-weight: lighter;
+    font-size: 56px;
+}
+
+.our-advantages-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    align-items: center;
+}
+
+.our-advantages-icon {
+    width: 127px;
+}
+
+
+
+.our-advantages-text {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.triangle-1 {
+    width: 18px;
+    height: 20px;
+    transform: rotate(-90deg);
+}
+
+.triangle-1:hover {
+    width: 20px;
+    height: 22px;
+    transform: rotate(-90deg);
+}
+
+.triangle-2 {
+    width: 18px;
+    height: 20px;
+    transform: rotate(90deg);
+}
+
+.triangle-2:hover {
+    width: 20px;
+    height: 22px;
+    transform: rotate(90deg);
+}
+
+.about-us {
+    font-weight: lighter;
+    font-size: 56px;
+    margin-bottom: 100px;
+}
+
+.about-us-description {
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.about-us-description-indent {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.subscribe-block {
+    background-color: #ffa019;
+    width: 100%;
+    min-height: 97px;
+    height: auto;
+}
+
+.subscribe-block-items {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.subscribe {
+    font-size: 18px;
+    color: white;
+    padding: 20px 30px 20px 0px;
+    line-height: 25px;
+    margin-right: auto;
+}
+
+.subscribe-label {
+    background-color: #FFA100;
+    font-size: 14px;
+    border: 1px solid #FDC66D;
+    background-color: transparent;
+    padding: 15px 5% 15px 15px;
+    margin-left: 15px;
+    outline: none;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.subscribe-label:hover {
+    background-color: #ed9418;
+}
+
+.subscribe-button {
+    text-align: center;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid #FDC66D;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: rgb(245, 241, 241);
+}
+
+.pros-and-cons-of-gyroscuters {
+    display: flex;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+
+.features-of-gyroscuters {
+    font-size: 56px;
+    margin-bottom: 60px;
+    font-weight: lighter;
+}
+
+.pros-and-cons-of-gyroscuters-list {
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.pros-and-cons-of-gyroscuters {
+    padding-bottom: 15px;
+}
+
+.comm-on-the-features {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.comm-on-the-features-block {
+    padding-bottom: 40px;
+}
+
+.catalog-block {
+    background-color: #fbfbfb;
+}
+
+.catalog {
+    font-weight: lighter;
+    font-size: 56px;
+}
+
+.catalog-directory-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.directory-filter {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.directory {
+    margin-left: 30px;
+    font-weight: lighter;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    padding: 2px 5px 2px 5px;
+
+}
+
+.directory:hover {
+    color: white;
+    background-color: #FFA100;
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
+}
+
+.category-of-product-card {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #ffa019;
+    padding: 5px 15px 5px 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.product-img {
+    padding-top: 80px;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.product-cards {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.product-card {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 400px;
+    background-color: white;
+    width: 260px;
+    align-items: center;
+    box-shadow: 0 15px 15px 15px rgba(177, 177, 177, 0.2);
+    cursor: pointer;
+}
+
+.product-card:hover {
+    box-shadow: 0 15px 15px 15px rgba(40, 39, 39, 0.2);
+}
+
+.product-name {
+    margin-left: 15px;
+    line-height: 30px;
+    font-weight: lighter;
+    font-size: 16px;
+    min-height: 70px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.our-consultans {
+    font-weight: lighter;
+    font-size: 56px;
+    padding-bottom: 60px;
+}
+
+.cards-of-consultants-block {
+    display: flex;
+}
+
+.card-of-consultant {
+    align-items: center;
+    display: flex;
+}
+
+.name-consultant {
+    font-size: 20px;
+    margin-top: 10px;
+    white-space: nowrap;
+    padding-right: 5px;
+}
+
+.profession {
+    font-size: 12px;
+}
+
+.write {
+    font-weight: bold;
+    color: white;
+    background-color: #FFA100;
+    border: 0;
+    padding: 7px 10px 7px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.write:hover {
+    background-color: #f19719;
+}
+
+.consultant-block {
+    background-color: #fbfbfb;
+    margin-right: 20px;
+    display: flex;
+}
+
+.about-consultant {
+    margin-left: 10px;
+}
+
+.brands-block {
+    background-color: #fbfbfb;
+}
+
+.name-brand {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 50px;
+    color: #9b9b9b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 194px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.useful-information-block {
+    padding-bottom: 80px;
+}
+
+.useful-information {
+    font-weight: lighter;
+    font-size: 56px;
+    padding-bottom: 60px;
+}
+
+.pic {
+    background-color: black;
+    width: 260px;
+    height: 260px;
+}
+
+.picture {
+    width: 260px;
+    opacity: 0.6;
+}
+
+.offer {
+    width: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.useful-information-picture {
+    position: relative;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.useful-information-pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #fbfbfb;
+}
+
+.footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.nav-menu-block {
+    display: flex;
+    margin-left: auto;
+}
+
+.info-1 {
+    font-size: 14px;
+    color: #8191a6;
+}
+
+.info-2 {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8191a6;
+}
+
+.copyright {
+    margin-top: 60px;
+    font-size: 14px;
+    color: #8191a6;
+}
+
+.nav-menu {
+    padding-left: auto;
+}
+
+.nav-heading {
+    font-size: 14px;
+    white-space: nowrap;
+    color: #303842;
+    padding-left: 20px;
+}
+
+.company-nav {
+    font-size: 14px;
+    font-weight: bold;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.nav-menu-link {
+    text-decoration: none;
+    color: #8191a6;
+}
+
+.info-block {
+    align-content: center;
+    padding-top: 80px;
+}
+
+.nav-menu-link:hover {
+    color: #5d6774;
+}
+
+@media(max-width: 1500px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .picture {
+        width: 200px;
+    }
+
+    .offer {
+        width: 190px;
+        top: 20%;
+    }
+
+    .name-brand {
+        height: 100px;
+        font-size: 25px;
+    }
+}
+
+@media(max-width:1300px) {
+    .container {
+        max-width: 920px;
+    }
+
+    .consultant-photo {
+        width: 120px;
+    }
+}
+
+@media(max-width:925px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .menu {
+        justify-content: space-around;
+    }
+
+    .menu-item {
+        margin-left: 25px;
+    }
+
+    .header-1 {
+        height: 80px;
+    }
+
+    .header-2 {
+        height: 80px;
+        display: block;
+    }
+
+    .nav {
+        margin-right: 100px;
+    }
+
+    .subscribe-block-items {
+        display: block;
+    }
+
+    .subscribe-button {
+        margin-left: 40px;
+    }
+
+    .subscribe {
+        margin-right: 30px;
+    }
+
+    .subscribe-label {
+        font-size: 13px;
+        padding: 15px 5px 15px 15px;
+    }
+
+    .category-of-product-card {
+        font-size: 80%;
+    }
+
+    .product-card {
+        height: 300px;
+
+    }
+
+    .product-name {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 15px;
+    }
+
+    .pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .picture {
+        width: 150px;
+    }
+
+    .offer {
+        width: 125px;
+        top: 5%;
+        font-size: 12px;
+    }
+
+    .consultant-photo {
+        width: 100px;
+    }
+
+    .name-consultant {
+        font-size: 14px;
+    }
+
+    .write {
+        padding: 5px 8px 5px 8px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .name-brand {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:703px) {
+    .container {
+        max-width: 400px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .nav {
+        padding-left: 40px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .menu-item {
+        padding: 3px 3px 3px 3px;
+    }
+
+    .header-2 {
+        height: 140px;
+    }
+    .our-advantages-text{
+        font-size: 12px;
+    }
+    .adv-img{
+        width:100px;
+    }
+    .subscribe-block{
+        padding-left:130px;
+    }
+    .subscribe-label{
+        margin-right:50px;
+        margin-left: 50px;
+    }
+    .subscribe-button{
+        margin-left:48px;
+    }
+    .pros-and-cons-of-gyroscuters-list{
+        font-size:14px;
+        padding-left:0px;
+    }
+    .catalog-directory-block {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    
+    .directory-filter {
+        flex-wrap: wrap;
+    }
+    
+    .directory {
+        margin-top:10px;
+        margin-left: 10px;
+    }
+    .category-of-product-card {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .product-img {
+        padding-top: 30px;
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+    
+    .product-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .product-card {
+        padding-bottom: 250px;
+        width:350px;
+        height: 325px;
+        margin-bottom:10px;
+    }
+    
+    .cards-of-consultants-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card-of-consultant {
+        align-items: center;
+        display: flex;
+        padding-bottom: 10px;
+    }
+    
+    .name-consultant {
+        font-size: 20px;
+        margin-top: 10px;
+        white-space: nowrap;
+        padding-right: 5px;
+    }
+    
+    .profession {
+        font-size: 12px;
+    }
+    
+    .write {
+        border: 0;
+        padding: 7px 10px 7px 10px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    
+    .write:hover {
+        background-color: #f19719;
+    }
+    
+   
+    .about-consultant {
+        margin-left: 10px;
+    }
+    .useful-information-pictures{
+        flex-wrap: wrap;
+    }
+    .useful-information-picture{
+        margin-bottom:10px;
+    }
+    .pic {
+        width: 101px;
+        height: 101px;
+    }
+
+    .picture {
+        width: 101px;
+    }
+
+    .offer {
+        width: 90px;
+        top: 5%;
+        font-size: 10px;
+    }
+    .nav-menu-block{
+        flex-wrap: wrap;
+        margin-left:30px;
+    }
+    .name-brand {
+        font-size: 10px;
+    }
+}
